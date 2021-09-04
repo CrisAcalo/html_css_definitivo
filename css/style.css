@@ -1,17 +1,7 @@
 * {
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
     padding: 0px;
     margin: 0px;
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    color: #fff;
-    padding: 20px 0 50px 0; 
 }
 
 body {
@@ -26,7 +16,6 @@ a {
 img {
     height: 100px;
     width: 100px;
-    /* border: 1px solid rgb(136, 136, 136); */
     border-radius: 100%;
     margin: 10px 0 10px 0;
     object-fit: cover;
@@ -41,12 +30,22 @@ li {
     margin: 5px 10px 5px 10px;
 }
 
-header h1 {
+.lista-compras_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    padding: 20px 0 50px 0; 
+}
+
+.lista-compras_title h1 {
     color: #57CC99;
     font-size: 40px;
 }
 
-header h2 {
+.lista-compras_title h2 {
     color: #80ED99;
 }
 
