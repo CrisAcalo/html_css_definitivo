@@ -18,20 +18,21 @@ li {
     list-style: none;
 }
 
-#initial-nav {
+.initial-nav {
     width: 100%;
     display: flex;
     background-color: #38A3A5;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 10px #164142;
 }
 
-#header-logo {
+.header-logo {
     object-fit: cover;
     margin-left: 20px;
 }
 
-#header-logo img {
+.header-logo img {
     padding-top: 5px;
     width: 140px;
 }
