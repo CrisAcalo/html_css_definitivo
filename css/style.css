@@ -1,3 +1,7 @@
+html {
+    font-size: 62,5%;
+}
+
 * {
     font-family: 'Balsamiq Sans', cursive;
     padding: 0px;
@@ -66,11 +70,14 @@ li {
 
 .lista-compras_title h1 {
     color: #57CC99;
-    font-size: 40px;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 0 20px 0;
 }
 
 .lista-compras_title h2 {
     color: #80ED99;
+    font-size: 2rem;
 }
 
 .listas-compras {
@@ -81,13 +88,26 @@ li {
     color: #fff;
 }
 
+.title-list {
+    background-color: #000;
+    position: relative;
+    bottom: 50px;
+    border-radius: 20px;
+background: #38A3A5;
+box-shadow:  5px 5px 10px #5affff,
+             -5px -5px 10px #164142;
+}
+
 .list1 {
     border-radius: 50px;
     background: #38A3A5;
     box-shadow:  -5px -5px 10px #164142,
              5px 5px 10px #5affff;
     padding: 10px 30px 10px 30px;
-    width: 500px;
+    max-width: 500px;
+    min-width: 300px;
+    width: 40%;
+    margin: 10px 0;
 }
 
 .list1 li {
