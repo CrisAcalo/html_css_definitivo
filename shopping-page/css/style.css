@@ -1,0 +1,133 @@
+html {
+    font-size: 62,5%;
+}
+
+* {
+    font-family: 'Balsamiq Sans', cursive;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #22577A;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.initial-nav {
+    width: 100%;
+    display: flex;
+    background-color: #38A3A5;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 10px #164142;
+}
+
+.header-logo {
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.header-logo img {
+    padding-top: 5px;
+    width: 140px;
+}
+
+.initial-nav_buttons {
+    width: 30%;
+    margin-left: auto;
+    display:  flex;
+	align-items: center;
+	justify-content: space-between;
+    margin-right: 20px;
+}
+
+.initial-nav_buttons li {
+    padding: 10px 0;
+}
+
+.initial-nav_buttons a {
+    color: #fff;
+}
+
+.lista-compras_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    padding: 20px 0 50px 0; 
+}
+
+.lista-compras_title h1 {
+    color: #57CC99;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.lista-compras_title h2 {
+    color: #80ED99;
+    font-size: 2rem;
+}
+
+.listas-compras {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: #fff;
+}
+
+.title-list {
+    background-color: #000;
+    position: relative;
+    bottom: 50px;
+    border-radius: 20px;
+background: #38A3A5;
+box-shadow:  5px 5px 10px #5affff,
+             -5px -5px 10px #164142;
+}
+
+.list1 {
+    border-radius: 50px;
+    background: #38A3A5;
+    box-shadow:  -5px -5px 10px #164142,
+             5px 5px 10px #5affff;
+    padding: 10px 30px 10px 30px;
+    max-width: 500px;
+    min-width: 300px;
+    width: 40%;
+    margin: 10px 0;
+}
+
+.list1 li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px 5px 10px;
+}
+
+.list1 ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listas-compras img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin: 10px 0 10px 0;
+    object-fit: cover;
+}
