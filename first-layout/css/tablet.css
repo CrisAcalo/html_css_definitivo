@@ -1,0 +1,36 @@
+header nav {
+    flex-direction: column;
+}
+
+header figure img {
+    margin: 5px 0;
+}
+
+nav ul {
+    margin: 5px 0;
+}
+
+main {
+    flex-direction: column;
+}
+
+section {
+    width: 100%;
+}
+
+section div {
+    margin: 20px 0;
+}
+
+aside {
+    width: 100%;
+}
+
+aside h2 {
+    margin: 10px 0 0 0;
+    font-size: 2rem;
+}
+
+aside div {
+    margin: 20px 0;
+}

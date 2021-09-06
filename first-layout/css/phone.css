@@ -1,0 +1,11 @@
+section {
+    flex-direction: column;
+}
+
+section div {
+    width: 90%
+}
+
+footer h2 {
+    width: 90%;
+}
